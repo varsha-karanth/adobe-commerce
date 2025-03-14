@@ -1,5 +1,5 @@
 {
-    "name": "my-magento-project",
+    "name": "magento",
     "description": "A Magento 2 project",
     "require": {
       "magento/product-community-edition": "2.4.5",
@@ -26,4 +26,4 @@
     "extra": {
       "magento-force": "override"
     }
-  }
+}
