@@ -1,0 +1,29 @@
+{
+    "name": "my-magento-project",
+    "description": "A Magento 2 project",
+    "require": {
+      "magento/product-community-edition": "2.4.5",
+      "composer/composer": "@alpha"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Magento\\Framework\\": "lib/internal/Magento/Framework/"
+      },
+      "files": [
+        "app/etc/NonComposerComponentRegistration.php"
+      ]
+    },
+    "minimum-stability": "stable",
+    "repositories": {
+      "magento": {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      }
+    },
+    "extra": {
+      "magento-force": "override"
+    }
+  }

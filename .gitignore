@@ -1,0 +1,23 @@
+# Magento generated files
+/generated/*
+/var/*
+/pub/static/*
+/pub/media/*
+/app/etc/env.php
+/app/etc/config.php
+
+# Composer dependencies
+/vendor/*
+
+# IDE files
+/.idea/
+/*.iml
+
+# Node modules
+/node_modules/
+
+# Log files
+*.log
+
+# Other
+.DS_Store
